@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FQEt23NxRGuE01cshxMqhA41AMdjzOS8N/S/nsywOJDQkbcjrAW9BE9rKUPYaZVRhacRyDUIL2SmC5xLR8znTg==",
+  "success": true,
+  "projectFilePath": "D:\\Projetos\\Api_Example\\src\\Dev.Business\\Dev.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Guilherme\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

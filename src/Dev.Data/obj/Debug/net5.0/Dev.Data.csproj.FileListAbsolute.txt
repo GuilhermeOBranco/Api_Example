@@ -1,0 +1,15 @@
+D:\Projetos\Api_Example\src\Dev.Data\bin\Debug\net5.0\Dev.Data.deps.json
+D:\Projetos\Api_Example\src\Dev.Data\bin\Debug\net5.0\Dev.Data.dll
+D:\Projetos\Api_Example\src\Dev.Data\bin\Debug\net5.0\ref\Dev.Data.dll
+D:\Projetos\Api_Example\src\Dev.Data\bin\Debug\net5.0\Dev.Data.pdb
+D:\Projetos\Api_Example\src\Dev.Data\bin\Debug\net5.0\Dev.Business.dll
+D:\Projetos\Api_Example\src\Dev.Data\bin\Debug\net5.0\Dev.Business.pdb
+D:\Projetos\Api_Example\src\Dev.Data\obj\Debug\net5.0\Dev.Data.csproj.AssemblyReference.cache
+D:\Projetos\Api_Example\src\Dev.Data\obj\Debug\net5.0\Dev.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Api_Example\src\Dev.Data\obj\Debug\net5.0\Dev.Data.AssemblyInfoInputs.cache
+D:\Projetos\Api_Example\src\Dev.Data\obj\Debug\net5.0\Dev.Data.AssemblyInfo.cs
+D:\Projetos\Api_Example\src\Dev.Data\obj\Debug\net5.0\Dev.Data.csproj.CoreCompileInputs.cache
+D:\Projetos\Api_Example\src\Dev.Data\obj\Debug\net5.0\Dev.Data.csproj.CopyComplete
+D:\Projetos\Api_Example\src\Dev.Data\obj\Debug\net5.0\Dev.Data.dll
+D:\Projetos\Api_Example\src\Dev.Data\obj\Debug\net5.0\ref\Dev.Data.dll
+D:\Projetos\Api_Example\src\Dev.Data\obj\Debug\net5.0\Dev.Data.pdb
