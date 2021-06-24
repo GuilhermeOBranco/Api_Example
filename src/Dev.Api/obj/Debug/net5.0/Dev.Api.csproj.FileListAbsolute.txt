@@ -57,12 +57,12 @@ D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\Dev.Api.AssemblyInfo.cs
 D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\Dev.Api.csproj.CoreCompileInputs.cache
 D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\Dev.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\Dev.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\staticwebassets\Dev.Api.StaticWebAssets.Manifest.cache
+D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\staticwebassets\Dev.Api.StaticWebAssets.xml
+D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\scopedcss\bundle\Dev.Api.styles.css
 D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\Dev.Api.RazorTargetAssemblyInfo.cache
 D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\Dev.Api.csproj.CopyComplete
 D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\Dev.Api.dll
 D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\ref\Dev.Api.dll
 D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\Dev.Api.pdb
 D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\Dev.Api.genruntimeconfig.cache
-D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\staticwebassets\Dev.Api.StaticWebAssets.Manifest.cache
-D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\staticwebassets\Dev.Api.StaticWebAssets.xml
-D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\scopedcss\bundle\Dev.Api.styles.css
