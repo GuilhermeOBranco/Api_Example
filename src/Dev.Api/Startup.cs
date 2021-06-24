@@ -7,6 +7,7 @@ using Microsoft.OpenApi.Models;
 using Dev.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Dev.Api.Configurations;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Dev.Api
 {
@@ -22,8 +23,9 @@ namespace Dev.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApiContext>(options => 
-                options.UseSqlServer(Configuration.GetConnectionString("ConexaoSql")).LogTo(System.Console.WriteLine, Microsoft.Extensions.Logging.LogLevel.Information)
+
+            services.AddDbContext<ApiContext>(options =>
+                options.UseSqlServer("Data Source=DESKTOP-AB21D1U\\SQLEXPRESS;Initial Catalog=API_CURSO;Integrated Security=True;")
             );
             services.AddAutoMapper(typeof(Startup));
             services.AddControllers();
@@ -32,6 +34,10 @@ namespace Dev.Api
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Dev.Api", Version = "v1" });
             });
             services.ResolveDependencies();
+            services.Configure<ApiBehaviorOptions>(options =>
+            {
+                options.SuppressModelStateInvalidFilter = true;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -21,7 +21,8 @@ namespace Dev.Api.Controllers
 
         public FornecedorController(IFornecedorRepository fornecedorRepository,
                                     IFornecedorService fornecedorService,
-                                    IMapper mapper)
+                                    IMapper mapper,
+                                    INotificador notificador) : base(notificador)
         {
             _fornecedorService = fornecedorService;
             _mapper = mapper;
@@ -47,17 +48,17 @@ namespace Dev.Api.Controllers
         [HttpPost]
         public async Task<ActionResult<FornecedorViewModel>> Post(FornecedorViewModel fornecedorVM)
         {
-            if (!ModelState.IsValid) return BadRequest();
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             try
             {
                 var fornecedor = _mapper.Map<Fornecedor>(fornecedorVM);
-                await _fornecedorRepository.Adicionar(fornecedor);
-                return Ok(fornecedorVM);
+                await _fornecedorService.Adicionar(fornecedor);
+                return CustomResponse(fornecedorVM);
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.ToString());
+                return CustomResponse(fornecedorVM);
             }
         }
         [HttpPut]
