@@ -20,7 +20,7 @@ namespace Dev.Api.Controllers
         private readonly IMapper _mapper;
 
         public FornecedorController(IFornecedorRepository fornecedorRepository,
-                                    FornecedorService fornecedorService,
+                                    IFornecedorService fornecedorService,
                                     IMapper mapper)
         {
             _fornecedorService = fornecedorService;

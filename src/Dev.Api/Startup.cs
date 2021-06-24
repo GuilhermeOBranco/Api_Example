@@ -22,7 +22,9 @@ namespace Dev.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApiContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ConexaoSql")));
+            services.AddDbContext<ApiContext>(options => 
+                options.UseSqlServer(Configuration.GetConnectionString("ConexaoSql")).LogTo(System.Console.WriteLine, Microsoft.Extensions.Logging.LogLevel.Information)
+            );
             services.AddAutoMapper(typeof(Startup));
             services.AddControllers();
             services.AddSwaggerGen(c =>

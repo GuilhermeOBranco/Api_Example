@@ -9,3 +9,4 @@ D:\Projetos\Api_Example\src\Dev.Business\obj\Debug\net5.0\Dev.Business.csproj.Co
 D:\Projetos\Api_Example\src\Dev.Business\obj\Debug\net5.0\Dev.Business.dll
 D:\Projetos\Api_Example\src\Dev.Business\obj\Debug\net5.0\ref\Dev.Business.dll
 D:\Projetos\Api_Example\src\Dev.Business\obj\Debug\net5.0\Dev.Business.pdb
+D:\Projetos\Api_Example\src\Dev.Business\obj\Debug\net5.0\Dev.Business.csproj.AssemblyReference.cache
