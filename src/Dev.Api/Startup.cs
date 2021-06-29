@@ -23,6 +23,7 @@ namespace Dev.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.WebApiConfig();
 
             services.AddDbContext<ApiContext>(options =>
                 options.UseSqlServer("Data Source=FLASH\\SQLEXPRESS;Initial Catalog=API_CURSO;Integrated Security=True;")
@@ -34,15 +35,14 @@ namespace Dev.Api
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Dev.Api", Version = "v1" });
             });
             services.ResolveDependencies();
-            services.Configure<ApiBehaviorOptions>(options =>
-            {
-                options.SuppressModelStateInvalidFilter = true;
-            });
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseMvcConfigurantion();
+            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

@@ -66,3 +66,4 @@ D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\Dev.Api.dll
 D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\ref\Dev.Api.dll
 D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\Dev.Api.pdb
 D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\Dev.Api.genruntimeconfig.cache
+D:\Projetos\Api_Example\src\Dev.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Certificate.dll

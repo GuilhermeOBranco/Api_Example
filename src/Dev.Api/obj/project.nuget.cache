@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+sYZ447tZACm6+z0/5KVP9kmFWyzGkS5hlHaavSc6DX6xX6GL7Bos67DUKrgw3L5nQInLVJWQBqXvlJs8bFfdA==",
+  "dgSpecHash": "Brj4lDyR880SK3uFvTwYqhqUl3xvn3rXwTvadUus+zhyO1ZMpoO10w+x7XvJ6aUfLsZR4Cf8Y+MmfyjLYdgwZw==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\Api_Example\\src\\Dev.Api\\Dev.Api.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Guilherme\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.aspnetcore.authentication.certificate\\5.0.7\\microsoft.aspnetcore.authentication.certificate.5.0.7.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
