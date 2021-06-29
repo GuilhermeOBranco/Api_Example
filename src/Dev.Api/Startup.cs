@@ -25,7 +25,7 @@ namespace Dev.Api
         {
 
             services.AddDbContext<ApiContext>(options =>
-                options.UseSqlServer("Data Source=DESKTOP-AB21D1U\\SQLEXPRESS;Initial Catalog=API_CURSO;Integrated Security=True;")
+                options.UseSqlServer("Data Source=FLASH\\SQLEXPRESS;Initial Catalog=API_CURSO;Integrated Security=True;")
             );
             services.AddAutoMapper(typeof(Startup));
             services.AddControllers();

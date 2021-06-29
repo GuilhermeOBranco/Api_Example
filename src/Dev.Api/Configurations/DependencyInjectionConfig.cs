@@ -16,6 +16,8 @@ namespace Dev.Api.Configurations
             services.AddScoped<IFornecedorService, FornecedorService>();
             services.AddScoped<IEnderecoRepository, EnderecoRepository>();
             services.AddScoped<INotificador, Notificador>();
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
+            services.AddScoped<IProdutoService, ProdutoService>();
 
             return services;
         }
