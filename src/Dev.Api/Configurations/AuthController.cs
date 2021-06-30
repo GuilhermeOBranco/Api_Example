@@ -51,13 +51,21 @@ namespace Dev.Api.Configurations
         [HttpPost("login")]
         public async Task<ActionResult> Login(LoginUserViewModel usuario)
         {
-            var result = _signInManager.PasswordSignInAsync(usuario.Email, usuario.Password, false, true);
+            if(!ModelState.IsValid) return CustomResponse(ModelState);
+            
+            var resultado = await _signInManager.PasswordSignInAsync(usuario.Email, usuario.Password, false, true);
 
-            if(result.IsCompletedSuccessfully)
+            if(resultado.IsLockedOut)
             {
+                NotificarErro("Usuario está temporariamente bloqueado!");
                 return CustomResponse(usuario);
             }
 
+            if(resultado.Succeeded)
+            {
+                return CustomResponse(usuario);
+            }
+            NotificarErro("Usuário ou senha incorreto");
             return CustomResponse(usuario);
         }
     }
