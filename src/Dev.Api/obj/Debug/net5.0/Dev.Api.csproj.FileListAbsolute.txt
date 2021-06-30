@@ -67,3 +67,8 @@ D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\ref\Dev.Api.dll
 D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\Dev.Api.pdb
 D:\Projetos\Api_Example\src\Dev.Api\obj\Debug\net5.0\Dev.Api.genruntimeconfig.cache
 D:\Projetos\Api_Example\src\Dev.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Certificate.dll
+D:\Projetos\Api_Example\src\Dev.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Projetos\Api_Example\src\Dev.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Projetos\Api_Example\src\Dev.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Projetos\Api_Example\src\Dev.Api\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\Projetos\Api_Example\src\Dev.Api\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll

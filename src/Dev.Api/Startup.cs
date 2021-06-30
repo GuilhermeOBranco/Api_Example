@@ -28,6 +28,7 @@ namespace Dev.Api
             services.AddDbContext<ApiContext>(options =>
                 options.UseSqlServer("Data Source=FLASH\\SQLEXPRESS;Initial Catalog=API_CURSO;Integrated Security=True;")
             );
+            services.AddIdentityConfiguration(Configuration);
             services.AddAutoMapper(typeof(Startup));
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -41,6 +42,8 @@ namespace Dev.Api
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseAuthentication();
+            
             app.UseMvcConfigurantion();
             
             if (env.IsDevelopment())
