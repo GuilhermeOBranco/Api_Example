@@ -3,6 +3,7 @@ using DevIO.Business.Intefaces;
 using DevIO.Business.Notificacoes;
 using DevIO.Business.Services;
 using DevIO.Data.Repository;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Dev.Api.Configurations

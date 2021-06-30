@@ -15,7 +15,7 @@ namespace Dev.Api.Configurations
                 options.UseSqlServer("Data Source=FLASH\\SQLEXPRESS;Initial Catalog=API_CURSO;Integrated Security=True;")
             );
 
-            services.AddIdentityCore<IdentityUser>()
+            services.AddDefaultIdentity<IdentityUser>()
             .AddRoles<IdentityRole>()
             .AddEntityFrameworkStores<ApplicationDbContext>()
             .AddDefaultTokenProviders();

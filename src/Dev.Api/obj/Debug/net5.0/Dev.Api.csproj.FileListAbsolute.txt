@@ -72,3 +72,7 @@ D:\Projetos\Api_Example\src\Dev.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Crypto
 D:\Projetos\Api_Example\src\Dev.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Projetos\Api_Example\src\Dev.Api\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
 D:\Projetos\Api_Example\src\Dev.Api\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Projetos\Api_Example\src\Dev.Api\bin\Debug\net5.0\Dev.Api.StaticWebAssets.xml
+D:\Projetos\Api_Example\src\Dev.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\Projetos\Api_Example\src\Dev.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Projetos\Api_Example\src\Dev.Api\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
